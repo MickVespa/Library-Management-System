@@ -1,0 +1,160 @@
+/*------------------------------My Code Index*--------------------------------*/
+body {
+  background-color: #DCE1E3;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111111;
+}
+h1 {
+  text-align: center;
+  font-size: 250%;
+  margin: 0;
+  border: 0;
+}
+header {
+  text-align: center;
+  height: 8vh;
+  width: 100vw;
+  background-color: #a0522d
+;
+}
+section {
+  height: 93vh;
+  width: 100vw;
+}
+footer {
+  height: 2vh;
+  width: 100vw;
+  background-color: #a0522d;
+}
+table, th, td {
+  border: 1px solid black;
+}
+/*--------------------------------------Classes-------------------------------*/
+.libraryPicture {
+  height: 100%;
+  width: 100%;
+}
+.copywrite {
+  text-align: center;
+  color: black;
+  font-size: .75rem;
+  margin: 0;
+}
+.navigationBar {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.title {
+  padding-top: 1%;
+}
+.welcomeText {
+      height: 25%;
+      position: absolute;
+      bottom: 50%;
+      right: 24%;
+      width: 50%;
+      color: springgreen;
+      text-align: center;
+  }
+
+/*--------------------------------------studentLogin--------------------------*/
+
+.studentlogIn {
+  height: 9%;
+  position: absolute;
+  bottom: 74%;
+  right: 25%;
+  width: 50%;
+  text-align: center;
+}
+/*---------------------------------------Registration-------------------------*/
+.Registration {
+    height: 9%;
+    position: absolute;
+    bottom: 74%;
+    right: 25%;
+    width: 50%;
+    text-align: center;
+}
+/*---------------------------------------Media Inventory----------------------*/
+.styled-table {
+    border-collapse: collapse;
+    margin-left: auto; margin-right: auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.searchBar {
+  text-align: center;
+}
+.btn {
+  background-color: #009879;
+}
+.obiwan {
+  display: flex;
+ align-items: center;
+ justify-content: center;
+}
+/*---------------------------------------Profile.php--------------------------*/
+.profileInfo {
+      height: 100%;
+      width: 50%;
+      text-align: center;
+      margin: 0 auto;
+}
+.profileButton {
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: center;
+}
+/*-------------------------------passwordReset.php----------------------------*/
+.passwordReset {
+  height: 9%;
+  position: absolute;
+  bottom: 74%;
+  right: 25%;
+  width: 50%;
+  text-align: center;
+}
